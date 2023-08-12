@@ -1,0 +1,31 @@
+.resuelto {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  display: grid;
+  place-items: center;
+  width: 50vw;
+  height: 50vh;
+  /*width: 400px;
+  height: 300px;*/
+  border-radius: 2%;
+  border-style: solid;
+  border-color: #222;
+  border-width: 2px;
+  background-color: rgba(120, 100, 0, 0.5); /*#7F6F10;*/
+  gap: 5px;
+  padding: 5px;
+}
+
+.casillaResuelto {
+  width: fit-content;
+  height: fit-content;
+  padding: 9px;
+  border-radius: 3%;
+  font-size: 64px;
+  font-weight: bolder;
+  color: #FF2010;
+  background-color: rgba(45, 90, 255, 0.7);
+  text-align: center;
+  position: relative;
+}
